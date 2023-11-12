@@ -1,7 +1,3 @@
-// 'a'.localeCompare('b', 'pt-BR')
+const nome = '123.456.789-25'.replace(/[^0-9]/g, '');
 
-console.log('a'.localeCompare('b', 'pt-BR'));
-
-console.log('b'.localeCompare('a', 'pt-BR'));
-
-console.log('a'.localeCompare('a', 'pt-BR'));
+console.log(nome);
